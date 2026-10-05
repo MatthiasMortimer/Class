@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://bivvosq2whynp"]
+
+[ext_resource type="Texture2D" uid="uid://bemmhj6vtffn6" path="res://sprites/Rocketz_Ship2.png" id="1_3vyb7"]
+
+[node name="Player" type="CharacterBody2D" unique_id=1793138679]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=734973488]
+position = Vector2(300, 160)
+texture = ExtResource("1_3vyb7")

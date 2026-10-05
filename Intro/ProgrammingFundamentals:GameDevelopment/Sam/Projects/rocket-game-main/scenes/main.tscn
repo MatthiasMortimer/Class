@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://bhvawl3n2fewf"]
+
+[ext_resource type="Script" uid="uid://txkbub8sicy0" path="res://scripts/player.gd" id="1_0wfyh"]
+[ext_resource type="Texture2D" uid="uid://bemmhj6vtffn6" path="res://sprites/Rocketz_Ship2.png" id="1_o5qli"]
+
+[node name="Player" type="CharacterBody2D" unique_id=1793138679]
+position = Vector2(305.00003, 123.999985)
+rotation = 0.050614547
+script = ExtResource("1_0wfyh")
+rotation_speed = 1.0
+starting_position = Vector2(300, 200)
+thrust_force = 550.0
+friction = 100.142
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=734973488]
+texture = ExtResource("1_o5qli")

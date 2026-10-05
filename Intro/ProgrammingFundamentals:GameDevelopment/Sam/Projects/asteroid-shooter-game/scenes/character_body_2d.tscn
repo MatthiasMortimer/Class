@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://qpoeyumf2pf8"]
+
+[ext_resource type="Texture2D" uid="uid://coy6mqnerj4ig" path="res://sprites/gddraw_2026-09-14T16-16-52.png" id="1_lj8jo"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_3qvvk"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=657860712]
+material = SubResource("CanvasItemMaterial_3qvvk")
+scale = Vector2(2, 2)
+disable_mode = 2
+motion_mode = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=631928169]
+texture = ExtResource("1_lj8jo")
